@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/red"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.techno_twit.harshal.chitrakaar.WhyDraw">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:paddingLeft="10dp"
+        android:typeface="serif"
+        android:paddingRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Drawing is an instinct we were all born with. We have to be taught to read and write, but we are born with the ability to learn to draw. Drawing is so important that we learn it without a teacher. Drawing is so essential for our survival and success that toddlers learn to draw before they begin first grade. Here are some of the many ways that drawing helps us in our lives.
+
+
+        1. We need drawings to figure out things that we are thinking about. Drawing makes us smarter. When I make something, I often do several drawings to see how it should look or to figure out if it will even work.  What would happen if architects, designers, and inventors did not draw first? Many math problems are much easier if you draw them first.
+
+
+        2. Inventors do lots of drawing to help them imagine better ideas. Drawing helps us become more creative and successful. I have one invention that I have been drawing and changing and improving for the last 40 years. Most inventions have not yet been invented. Drawing will help us discover them.
+
+
+        3. Drawing makes us surer of ourselves, more confident, and less afraid to make mistakes. Drawing teaches us that many mistakes can be fixed and many mistakes are good because they help us discover new ideas.
+
+
+        4. Drawing teaches us how to think better because when we draw our mind is always thinking about new ways to draw things. This makes us grow more thinking neurons and we get smarter.
+
+
+        5. Drawing helps us notice and see more. After you draw something, it is harder to forget how it looks. If you make a very careful drawing from a real fish, you will notice all the parts of the fish. If you want to learn all the parts of anything, there is no better way to learn them. Without drawing it, you could easily miss some very important part.
+
+
+        6. Drawing helps us explain things and give instructions. It is often much easier to
+        understand something from a drawing than from words. Drawings are much better than words when you do not know the language and you looking for the bathroom. Maps are drawings that tell us about the world and keep us from getting lost. Drawing a chart or a graph helps us make comparisons and choices. It makes things easier to remember.
+
+
+        7. Drawing helps us keep records, keep track of things, and record history as it happens.
+
+
+        8. Drawing is wonderful way to help us tell stories and jokes.
+
+
+        9. Drawing is good way to make an argument. We often see drawings in the newspaper that exaggerate something to make a point about politics. Drawings often are used in advertising to try to convince us to buy something.
+
+
+        10. Drawings are often used to keep us safe. Warning signs use drawings to remind us what might happen and that we need to be careful.
+
+
+        11. Drawing is used to make things more beautiful. Like music, they can lift our spirits.
+
+
+        12. Drawing can remind us of bad and good things that happen and bad and good things that people do. This can make us into better people if we learn from these drawings.
+
+
+        13. Drawings, symbols, and designs are used in churches, mosques, synagogues and special places to help give meaning to ideas and feelings that are often too hard to put into words.
+
+
+        14. Like dancing and singing, drawings and other artworks help us express our feelings and our dreams. Drawing helps us celebrate, express joy and sadness, and show our feelings to each other and for each other.
+
+"
+        android:id="@+id/textView"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip This"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/button"
+        android:background="@android:color/transparent"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+
+</RelativeLayout>
+    </ScrollView>

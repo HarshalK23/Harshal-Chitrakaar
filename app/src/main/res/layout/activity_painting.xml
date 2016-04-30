@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/polka"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.techno_twit.harshal.chitrakaar.WhyDraw">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:paddingLeft="10dp"
+            android:typeface="serif"
+
+            android:paddingRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Consider your goal. What types of painting and art are you hoping to create? Do you need a lot of time to work on a single project, or do you want hope to fully finish pieces in a single sitting? Do you have a spacious work area that is well ventilated, or a small area that might cause fumes to build up? How much money do you hope to spend on supplies? These are all important things to consider before committing to a type of paint. Watercolors come in cases or small tubes of pigment. When used alone, they are thick and opaque, and do not cover much area. When used in combination with water, they will thin out and become transparent. Watercolors are used on specific paper made for use with watercolor; any old piece of paper will not necessarily work very well. These paints don’t allow thick layers of color, but give the beautiful effect of thin, translucent layers of color.
+
+    Watercolor paint sets begin for as little as $20 and can range to prices far above $100. For a quality beginners set of paint, expect to pay between $50-$80 to start.
+    Because watercolor can only be done on special paper that won’t wrinkle and curl when it comes into contact with water, there are limited options for things to use as a “blank canvas,” unlike acrylic and oil paints.
+
+"
+            android:id="@+id/textView"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>
